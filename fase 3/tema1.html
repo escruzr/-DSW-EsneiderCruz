@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box y CSS Grid</title>
+    <link rel="stylesheet" href="css/miestilo.css">
+</head>
+
+<body>
+    <header>
+        <img src="img/logo-universidad-nacional-abierta-y-a-distancia.png" alt="imagen de logo" height="100"
+            width="200">
+        <h1>Tema 1 </h1>
+        <img src="img/logo-universidad-nacional-abierta-y-a-distancia.png" alt="imagen de logo" height="100"
+            width="200">
+    </header>
+    <nav>
+        <ul class="men">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="index.html">Temas </a>
+                <ul class="drop">
+                    <li><a href="tema1.html">Tema 1</a></li>
+                    <li><a href="tema2.html">Tema 2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Recursos Digitales</a>
+                <ul class="drop">
+                    <li><a href="#">Recurso 1</a></li>
+                    <li><a href="#">Recurso 2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Aprendizaje</a>
+                <ul class="drop">
+                    <li><a href="#">Actividad 1</a></li>
+                    <li><a href="#">Actividad 2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Acerca de</a>
+                <ul class="drop">
+                    <li><a href="autor.html">Autor</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </nav>
+    <div class="cont">
+        <aside>
+            <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUNAD-Universidad-Nacional-Abierta-y-a-Distancia-289269894433573%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                allowfullscreen="true"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </aside>
+        <section>
+            <article>
+                <h4>Flex Box</h4>
+                <p>
+                    En los principios de CSS era muy común ver la propiedad float en los archivos style.css y aunque
+                    esta propiedad fue creada para especificar si un elemento debe salir del flujo normal y situarse a
+                    la izquierda o derecha del contenido y el texto cercano acoplarse o no a dicho elemento, fue
+                    utilizada para crear disposiciones de elementos habiendo texto o no involucrado. Pero eso es cosa
+                    del pasado con Flexbox.
+
+
+                </p>
+                <h4>¿Qué es Flexbox?</h4>
+                <p>
+                    Flexbox es un módulo de diseño de CSS3 que se creó para mejorar la forma en la que se hace diseño
+                    responsive, evitando así el uso de float, escribiendo menos código y facilitando el posicionamiento
+                    de elementos, incluso no teniendo noción del tamaño de éstos. Básicamente la idea de Flexbox es
+                    poder alterar el ancho, alto y posicionamiento de elementos de la mejor manera con el espacio del
+                    que disponemos.
+                </p>
+                <h4>Contenedor de Flexbox</h4>
+                <img src="img/flexbox-1.png" alt="flexbox" width="500" height="300">
+                <h4>Creando el elemento padre (display: flex)</h4>
+                <p>
+                    Flex box trabaja mediante a un elemento contenedor que engloba al resto de etiquetas de un
+                    documento. Por ello creamos el elemento contenedor.<br>
+                    Se crea un CSS en el que añadimos un background-color y la propiedad display con valor flex.
+                </p>
+                <h4>Ejemplo de Flexbox</h4>
+                <img src="img/cont1.png" alt="" width="500" height="300"><br>
+                <img src="img/con11.png" alt="" width="500" height="300">
+                <h4>Creando los elementos hijos (contenidos)</h4>
+                <p>
+                    Una vez creado el elemento padre, se crea los elementos hijos de este elemento contenedor “padre”
+                    (caja flexible). Estos elementos hijos pueden ajustarse son flexibles Y Se le puede dar estilo
+                    aplicado Css.
+                </p>
+                <img src="img/cont2.png" alt="" width="500" height="300"><br>
+                <img src="img/cont22.png" alt="" width="500" height="300">
+                <h4>Referencias bibliográficas</h4>
+                <p>
+                    0, J. D. (2021). Aprende a programar en uno de los lenguajes más demandados. Obtenido de
+                    https://javadesde0.com/introduccion-a-flex-box-css/<br>
+                    omospnt. (05 de 02 de 2020). ¿Qué es Flexbox? Obtenido de
+                    https://somospnt.com/blog/148-flexbox-que-es-y-para-que-sirve<br>
+                    flex-box. (05 de 03 de 2017). Obtenido de https://juancenteno.info/flex-box/<br>
+                </p>
+            </article>
+        </section>
+    </div>
+    <footer>
+        <p>Correo: ecruzroj@unadvirtual.edu.co <br>
+            Skype: live:es-da-cruz <br>
+            Fecha: 05/05/2021 <br>
+        </p>
+    </footer>
+
+
+
+</body>
+
+</html>
